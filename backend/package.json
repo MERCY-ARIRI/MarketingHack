@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Simple Node/Express backend for WhatsApp auto-marketer prototype using Twilio.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development node src/server.js"
+  },
+  "keywords": [
+    "express",
+    "twilio",
+    "whatsapp",
+    "sme",
+    "auto-marketer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "twilio": "^5.10.6"
+  }
+}
