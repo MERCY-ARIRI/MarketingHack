@@ -217,6 +217,13 @@
   border-radius: 0.75rem;
   background: rgba(15, 23, 42, 0.8);
   border: 1px solid rgba(30, 64, 175, 0.4);
+  transition: all 0.2s ease;
+}
+
+.campaign-item:hover {
+  background: rgba(15, 23, 42, 0.95);
+  border-color: rgba(59, 130, 246, 0.6);
+  transform: translateY(-1px);
 }
 
 .campaign-name {
