@@ -6,3 +6,10 @@ backend/node_modules/
 # Env files
 .env
 backend/.env
+
+# Uploads and data
+uploads/
+backend/uploads/
+backend/data/
+*.csv
+!sample-contacts.csv

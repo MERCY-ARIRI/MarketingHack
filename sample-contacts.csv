@@ -1,0 +1,7 @@
+name,phone,email,optInStatus
+John Doe,+2348123456789,john.doe@example.com,opted-in
+Jane Smith,+2348123456790,jane.smith@example.com,opted-in
+Bob Johnson,+2348123456791,bob.johnson@example.com,unknown
+Alice Williams,+2348123456792,alice.williams@example.com,opted-out
+Charlie Brown,+2348123456793,charlie.brown@example.com,opted-in
+
