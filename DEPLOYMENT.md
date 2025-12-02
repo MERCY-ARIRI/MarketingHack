@@ -49,3 +49,5 @@ If your frontend and backend are on different domains, you may need to update fe
 - **CORS errors**: Make sure your backend has CORS enabled (already configured in `server.js`).
 - **Environment variables not working**: Make sure they're set in Render dashboard, not in `.env` files (which aren't deployed).
 
+
+
