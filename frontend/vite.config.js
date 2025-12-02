@@ -12,4 +12,8 @@ export default defineConfig({
       },
     },
   },
+  // Expose environment variables to client
+  define: {
+    'import.meta.env.VITE_API_URL': JSON.stringify(process.env.VITE_API_URL || ''),
+  },
 })
